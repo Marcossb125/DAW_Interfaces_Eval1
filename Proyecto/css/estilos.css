@@ -1,0 +1,215 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../imagenes/Worlds-cabecera-edit.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.foot {
+    height: 20vh;
+    width: 100%;
+    background-color: #6B4A00;
+    border: solid 2px black;
+    box-sizing: border-box;
+}
+
+.contenedor-foto-fondo-1 {
+    height: 100%;
+    width: 20%;
+    background-color: lightgray;
+}
+
+.contenedor-foto-fondo-2 {
+    height: 100%;
+    width: 20%;
+    background-color: lightgray;
+}
+
+
+.contenedor-cuerpo {
+    height: 100%;
+    width: 60%;
+    background-color: #BA9131;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-left: solid 2px black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-contenido {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 250vh;
+
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contenedor-navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #D5B15F;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: solid black 2px;
+    box-sizing: border-box;
+}
+
+.bloque-navbar {
+    margin:1vh;
+}
+
+.contenedor-seccion {
+    margin-top: 5vh;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedor-seccion2 {
+    margin-top: 10vh;
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloque-worlds {
+    width: 80%;
+    height: 100%;
+    background-color: #8C6817;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.bloque-foto {
+    width: 100%;
+    height: 70%;
+}
+
+.bloque-texto {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid black 2px;
+    box-sizing: border-box;
+}
+.bloque-titulo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-historia {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+
+}
+
+.bloque-historia {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8C6817;
+    border: solid black 2px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.seccion-equipos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3vw;
+
+}
+
+.bloque-foto2 {
+    width: 100%;
+    height: 30%;
+}
+
+.bloque-titulo2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloque-equipo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #8C6817;
+    border: solid black 2px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.bloque-jugadores {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+
+.foto-jugador {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.jugador {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
+    width: 100%;
+    margin: 0;
+}
