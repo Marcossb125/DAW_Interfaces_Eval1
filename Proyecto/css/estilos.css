@@ -31,6 +31,10 @@ h3 {
     color: white;
 }
 
+a {
+    font-family: "Zodiak", serif;
+}
+
 .foot {
     height: 20vh;
     width: 100%;
@@ -277,6 +281,8 @@ h3 {
     height: 100%;
     object-fit: contain;
     object-position: center;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 @media screen and (max-width: 576px) {
@@ -338,9 +344,10 @@ h3 {
         padding-bottom: 15px;
     }
 
-    .bloque-historia .foto {
+    .bloque-historia .foto,
+    .foto-LoL {
         height: auto;
-        max-height: 220px;
+        max-height: 180px;
     }
 
     .foto-equipo {
@@ -380,9 +387,10 @@ h3 {
         width: 80%;
     }
 
-    .bloque-historia .foto {
+    .bloque-historia .foto,
+    .foto-LoL {
         height: auto;
-        max-height: 220px;
+        max-height: 180px;
     }
 
     .seccion-equipos {
